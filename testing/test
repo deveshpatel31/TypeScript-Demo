@@ -1,0 +1,12 @@
+tsconfig.json
+
+tsc --noEmitOnError Customer.ts
+
+tsc --target ES5 --noEmitOnError Customer.ts
+
+{
+  "CompilerOptions": {
+    "noEmitOnError": true,
+    "target": "es5" 
+  }
+}
